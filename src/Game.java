@@ -37,7 +37,7 @@ public class Game {
         startbuttonpanel.setBackground(Color.black);
 
         startbutton=new JButton("START");
-        startbutton.setBackground(Color.black);
+        startbutton.setBackground(Color.white);
         startbutton.setForeground(Color.black);
         startbutton.setFont(normalfont);
         startbutton.addActionListener(tsHandler);
@@ -74,22 +74,22 @@ public class Game {
         con.add(choicebuttonpanel);
 
         choice1=new JButton("Choice 1");
-        choice1.setBackground(Color.black);
+        choice1.setBackground(Color.white);
         choice1.setForeground(Color.black);
         choice1.setFont(normalfont);
         choicebuttonpanel.add(choice1);
         choice2=new JButton("Choice 2");
-        choice2.setBackground(Color.black);
+        choice2.setBackground(Color.white);
         choice2.setForeground(Color.black);
         choice2.setFont(normalfont);
         choicebuttonpanel.add(choice2);
         choice3=new JButton("Choice 3");
-        choice3.setBackground(Color.black);
+        choice3.setBackground(Color.white);
         choice3.setForeground(Color.black);
         choice3.setFont(normalfont);
         choicebuttonpanel.add(choice3);
         choice4=new JButton("Choice 4");
-        choice4.setBackground(Color.black);
+        choice4.setBackground(Color.white);
         choice4.setForeground(Color.black);
         choice4.setFont(normalfont);
         choicebuttonpanel.add(choice4);
